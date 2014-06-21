@@ -10,6 +10,7 @@ def merge( array_A, array_B ):
       merged_array.append( array_B[ B_index ] )
       B_index += 1
 
+# a new array, without changing the first
 def merge_sort( array ):
   array_length = len( array )
   half_way = int( array_length / 2 )
